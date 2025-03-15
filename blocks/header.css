@@ -1,5 +1,5 @@
 .header {
-  padding: 30px 80px 40px;
+  box-sizing: border-box;
   background-color: #fff;
   background-image: url(../images/background_header.svg);
   background-position: center;
@@ -9,6 +9,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  z-index: 1;
 }
 
 .header__image {
@@ -17,6 +18,7 @@
   height: 568px;
   top: 124px;
   right: 5px;
+  z-index: -1;
 }
 
 .header__title {
