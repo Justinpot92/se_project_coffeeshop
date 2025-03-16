@@ -1,5 +1,6 @@
 .header {
   box-sizing: border-box;
+  padding: 30px 80px 40px;
   background-color: #fff;
   background-image: url(../images/background_header.svg);
   background-position: center;

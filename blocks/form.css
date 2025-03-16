@@ -15,7 +15,7 @@
   color: #000;
 }
 
-.form_input::placeholder {
+.form__input::placeholder {
   color: #838383;
 }
 
